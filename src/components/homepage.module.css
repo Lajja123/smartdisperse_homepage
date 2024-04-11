@@ -1,0 +1,153 @@
+
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;
+    width: 90vw;
+  }
+  
+  .line {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+  }
+  
+  .line::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+    animation: drop 7s 0s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+  }
+  
+  .line:nth-child(1) {
+    margin-left: -25%;
+  }
+  
+  .line:nth-child(1)::after {
+    animation-delay: 2s;
+  }
+  
+  .line:nth-child(3) {
+    margin-left: 25%;
+  }
+  
+  .line:nth-child(3)::after {
+    animation-delay: 2.5s;
+  }
+  
+  @keyframes drop {
+    0% {
+      top: -50%;
+    }
+    100% {
+      top: 110%;
+    }
+  }
+  .homeMain{
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    justify-content: space-evenly;
+  }
+  .titleSame{
+    z-index: 1;
+    text-align: center;
+    white-space: normal;
+    -webkit-text-fill-color: transparent;
+    background-color: #fafafa;
+    background-image: linear-gradient(135deg, #fff 38%, #828282);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 1px;
+    padding:5px 0px;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .peraSame{
+    margin: 10px auto;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #d8d8d8;
+    padding:5px 0px;
+    font-weight: 500;
+    max-width: 60ch;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+  
+  .hLaunchMain{
+  width: 50%;
+  margin: 20px auto;
+  cursor: pointer;
+   text-align: center;
+  }
+  .hLaunch{
+    padding: 13px 50px;
+    background:#171719;
+    border: 1px solid #7904b3;
+    letter-spacing: 1.2px;
+    font-size: 1rem;
+    border-radius: 63px;
+    color: white;
+    cursor: pointer;
+    margin: 0px 10px;
+   
+  }
+  .hLaunch:hover{
+    background-color: #ab00ff;
+  }
+  .chains{
+  padding: 0px 10px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #c54eff;
+  font-size: 15px;
+  font-weight: 600;
+    
+  }
+  .sec2{
+    margin-top: 50px;
+  }
+
+  .divheadertag {
+    flex-flow: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+    display: flex
+}
+
+.divblock23 {
+  background-color: #fff;
+  background-image: linear-gradient(90deg,#21262d,rgba(33,38,45,.8));
+  width: 180px;
+  height: 1px
+}
+
+.div-lock23.rotate {
+  transform: rotate(180deg)
+}
+
+
+
+
+
+
