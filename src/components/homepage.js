@@ -3,11 +3,23 @@ import home from "../components/homepage.module.css"
 import Navbar from './navbar'
 import Image from "next/image";
 import "../components/chain.css"
+import outer from "../assests/outer.png"
+import middle from "../assests/middle.png"
+import inner from "../assests/inner.png"
+import iconLogo from "../assests/iconlogo.svg"
+import base from "../assests/base.png"
+import scrolll from "../assests/scroll.png"
+import eth from "../assests/ethereum.png"
+import mode from "../assests/mode.png"
+import optimism from "../assests/optimism.png"
+import tron from "../assests/tron.webp"
+
 
 
 function homepage() {
   return (
-    <div className={home.homeMain}>
+    <div>
+    <section className={home.homeMain1}>
       <div className={home.sec1}>
       <div className={home.titleSame}>All Chains, One Solution</div>
       <div className={home.titleSame}>Smart-Disperse Your Crypto Transactions!</div>
@@ -17,7 +29,7 @@ function homepage() {
       <button className={home.hLaunch}>Bridge ➔</button>
       </div>
       </div>
-      <div className={home.sec2}>
+      <div className={home.sec12}>
         <div className={home.divheadertag}>
           <div className={home.divblock23}></div>
           <h3 className={home.chains}>Supported Chains</h3>
@@ -67,10 +79,53 @@ function homepage() {
 
     
       </div>
-    
+    </section>
+
+  <section className={home.homeMain2}>
+    <div className={home.sec21}>
+     <div className={home.chainCircle}> 
+      <div className={home.outerWrapper}>
+        <Image src={outer} style={{width:"100%", height:"100%"}}alt='none'className={home.outercircle}/>
+        {/* <Image src="https://assets-global.website-files.com/63996d8b3c061af402fa0609/6463a56fc2f1ffc2e8f32e14_gelato-icon-round.png "width={100} height={100} alt='none'/> */}
+      </div>
+      <div className={home.logoWrapper}>
+      <div className={home.mainlogo}>
+      <div className={home.logodiv}>
+      <Image src={iconLogo} width={100} height={100} alt='none'/>
+        </div>
+        </div>
+      </div>
+      <div className={home.MidWrapper}>
+      <Image src={middle} alt='none' className={home.midcircle}/>
+      </div>
+      <div className={home.innerWrapper}>
+      <Image src={inner} alt='none' className={`${home.innercircle} `}/>
+      <Image src={base} alt='none' className={`${home.base} ${home.logoinner}`}/>
+      <Image src={eth} alt='none' className={`${home.eth} ${home.logoinner}`}/>
+      <Image src={optimism} alt='none' className={`${home.optimism} ${home.logoinner}`}/>
+      <Image src={mode} alt='none' className={`${home.mode} ${home.logoinner}`}/>
+      <Image src={scrolll} alt='none' className={`${home.scrolll} ${home.logoinner}` }/>
+      <Image src={tron} alt='none' className={`${home.tron} ${home.logoinner}` }/>
+      </div>
     </div>
 
-
+    <div className={home.flexContent}>
+      <h2>Securely connect every blockchain</h2>
+      <div className={home.flexpera}>
+      Synapse is comprised of a cross-chain messaging framework and an economically secure method to reach consensus on the validity of cross-chain transactions, enabling developers to build truly native cross-chain apps.
+      </div>
+    </div> 
+     
+    </div>
+    <div className={home.sec22}>
+    <div className={home.divheadertag}>
+          <div className={home.divblock23}></div>
+          <h3 className={home.chains}>About SmartDisperse</h3>
+          <div className={home.divblock23}></div>
+        </div>
+    </div>
+  </section>
+  </div>
   )
 }
 

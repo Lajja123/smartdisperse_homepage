@@ -57,7 +57,7 @@
       top: 110%;
     }
   }
-  .homeMain{
+  .homeMain1{
     display: flex;
     flex-direction: column;
     min-height: 80vh;
@@ -122,7 +122,7 @@
   font-weight: 600;
     
   }
-  .sec2{
+  .sec12{
     margin-top: 50px;
   }
 
@@ -147,7 +147,151 @@
 }
 
 
+/* ............section 2.......... */
+.homeMain2{
+  background-image: url('https://assets-global.website-files.com/63996d8b3c061af402fa0609/65c1d15a26a62c6deb80132d_Benefits-BG.png');
+  background-position: 50%;
+  background-size: cover;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.sec21{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+max-width: 70rem;
+margin: 0 auto;
+}
+.outerWrapper{
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.logoWrapper{
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+.innerWrapper{
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+.mainlogo{
+  background-color: rgba(236, 81, 104, 0);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 0%;
+    display: flex;
+    box-shadow: 0 0 30px 15px rgba(212,212,212,.63);
+}
+.logodiv img{
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+.MidWrapper{
+  position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+.midcircle{
+  z-index: 0;
+    opacity: .8;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    bottom: 0%;
+    left: 10%;
+    right: 0%;
+    height: auto;
+}
+.outercircle {
+  opacity: .9;
+  width: 100%;
+}
+.innercircle{
+  z-index: 0;
+  opacity: .8;
+  width: 60%;
+  position: absolute;
+  top: 20%;
+  bottom: 0%;
+  left: 20%;
+  right: 0%;
+  height: auto;
+}
+.chainCircle{
+  justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 420px;
+    display: flex;
+    position: relative;
+}
+.flexContent{
+  max-width:28rem;
+}
+.flexContent h2{
+  font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    
+}
+.flexpera{
+  padding: 10px 0px;
+  color: rgb(204 202 211/var(--opacity));
+}
+.logoinner{
+  width: 40px;
+  height: 40px;
+  z-index: 5;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 1px 5px 2px rgba(161,161,161,.39);
+  top: 0%;
+  bottom: auto;
+  right: auto;
+  left: 0%;
 
+}
+.logoinner.base{
+  top: auto;
+  bottom: 19%;
+  left: auto;
+  right: 2%;
+}
+.logoinner.eth{
+  top: 25%;
+  left: 25%;
+}
+.logoinner.optimism{
+  left: -5%;
+  top: 57%;
+}
+.logoinner.mode{
 
-
-
+  left: 67%;
+}
+.logoinner.scrolll{
+  left: 40%;
+  top: 75%;
+}
+.logoinner.tron{
+  left: 74%;
+  top: 38%;
+}

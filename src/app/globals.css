@@ -4,6 +4,7 @@
   --duration: 60s;
   --scroll-start: 0;
   --scroll-end: calc(-100% - var(--gap));
+  --opacity:1;
 }
 .dark{
 --background:white;
