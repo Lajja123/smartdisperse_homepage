@@ -14,6 +14,7 @@ import mode from "../assests/mode.png"
 import optimism from "../assests/optimism.png"
 import tron from "../assests/tron.webp"
 import fast from "../assests/fast.svg"
+import Usecases from './Usecases';
 
 
 
@@ -118,6 +119,7 @@ function homepage() {
       </div>
       </div>
     </div>
+    <Usecases/>
  
     <div className={home.sec21}>
      <div className={home.chainCircle}> 
@@ -157,7 +159,7 @@ function homepage() {
     </div> 
      
     </div>
-
+    
   
    
   </section>
