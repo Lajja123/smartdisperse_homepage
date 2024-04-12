@@ -6,7 +6,7 @@ import "../components/chain.css"
 import outer from "../assests/outer.png"
 import middle from "../assests/middle.png"
 import inner from "../assests/inner.png"
-import iconLogo from "../assests/iconlogo.svg"
+import iconLogo from "../assests/disperse.png"
 import base from "../assests/base.png"
 import scrolll from "../assests/scroll.png"
 import eth from "../assests/ethereum.png"
@@ -18,9 +18,10 @@ import Usecases from './Usecases';
 
 
 
+
 function homepage() {
   return (
-    <div>
+  <div>
     <section className={home.homeMain1}>
       <div className={home.sec1}>
       <div className={home.titleSame}>All Chains, One Solution</div>
@@ -78,12 +79,10 @@ function homepage() {
           </div>
         </div>
       </article>
-
-    
       </div>
     </section>
 
-  <section className={home.homeMain2}>
+    <section className={home.homeMain2}>
   <div className={home.sec22}>
       <div className={home.aboutUs}>
           <div className={home.divheadertag}>
@@ -119,8 +118,6 @@ function homepage() {
       </div>
       </div>
     </div>
-    <Usecases/>
- 
     <div className={home.sec21}>
      <div className={home.chainCircle}> 
       <div className={home.outerWrapper}>
@@ -159,10 +156,8 @@ function homepage() {
     </div> 
      
     </div>
-    
-  
-   
-  </section>
+    </section>
+    <Usecases/>
   </div>
   )
 }
