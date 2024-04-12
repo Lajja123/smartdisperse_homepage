@@ -13,6 +13,7 @@ import eth from "../assests/ethereum.png"
 import mode from "../assests/mode.png"
 import optimism from "../assests/optimism.png"
 import tron from "../assests/tron.webp"
+import Usecases from './Usecases';
 
 
 
@@ -121,8 +122,10 @@ function homepage() {
     <div className={home.divheadertag}>
           <div className={home.divblock23}></div>
           <h3 className={home.chains}>About SmartDisperse</h3>
-          <div className={home.divblock23}></div>
+          <div className={home.divblock23}>
+          </div>
         </div>
+            <Usecases/>
     </div>
   </section>
   </div>
