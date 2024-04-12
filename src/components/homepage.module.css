@@ -118,7 +118,7 @@
   letter-spacing: 1px;
   text-align: center;
   color: #c54eff;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
     
   }
@@ -152,17 +152,16 @@
 background-image: url('https://assets-global.website-files.com/63996d8b3c061af402fa0609/65c1d15a26a62c6deb80132d_Benefits-BG.png');
 background-position: 50%;
 background-size: cover;
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+padding: 50px 0px;
 }
 .sec21{
 display: flex;
 align-items: center;
 justify-content: space-evenly;
-width: 70%;
 margin: 0px auto;
+}
+.sec21{
+margin-top: 20px;
 }
 .outerWrapper{
   border-radius: 50%;
@@ -255,7 +254,7 @@ margin: 0px auto;
     
 }
 .flexpera{
-  padding: 10px 0px;
+  padding: 20px 0px;
   color: rgb(204 202 211/var(--opacity));
 }
 .logoinner{
@@ -297,8 +296,9 @@ margin: 0px auto;
   left: 74%;
   top: 38%;
 }
-.sec22{
-  margin: 0px 0px;
+.sec21{
+  margin-top: 100px ;
+  max-width: 72em;
 }
 .aboutUs{
   width: 100%;
@@ -310,7 +310,7 @@ margin: 0px auto;
   color:#d8d8d8;
     max-width: 56ch;
     margin: 0 auto;
-    font-size: 1.125em;
+    font-size: 1em;
     font-weight: 300;
     line-height: 1.5em;
 }
@@ -363,3 +363,24 @@ margin: 0px auto;
   line-height: 150%;
   text-align: center;
 }
+.hLaunchMain{
+  width: 50%;
+  margin: 20px auto;
+  cursor: pointer;
+   text-align: center;
+  }
+  .hApp{
+    padding: 13px 80px;
+    background:#171719;
+    border: 1px solid #7904b3;
+    letter-spacing: 1.2px;
+    font-size: 1rem;
+    border-radius: 63px;
+    color: white;
+    cursor: pointer;
+    margin: 0px 10px;
+   
+  }
+  .hApp:hover{
+    background-color: #ab00ff;
+  }

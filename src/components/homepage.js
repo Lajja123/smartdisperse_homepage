@@ -151,6 +151,9 @@ function homepage() {
       <div className={home.flexpera}>
       Synapse is comprised of a cross-chain messaging framework and an economically secure method to reach consensus on the validity of cross-chain transactions, enabling developers to build truly native cross-chain apps.
       </div>
+      <div>
+        <button className={home.hApp}>App</button>
+      </div>
     </div> 
      
     </div>
