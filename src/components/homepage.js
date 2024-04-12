@@ -13,6 +13,7 @@ import eth from "../assests/ethereum.png"
 import mode from "../assests/mode.png"
 import optimism from "../assests/optimism.png"
 import tron from "../assests/tron.webp"
+import fast from "../assests/fast.svg"
 import Usecases from './Usecases';
 
 
@@ -83,6 +84,43 @@ function homepage() {
     </section>
 
   <section className={home.homeMain2}>
+  <div className={home.sec22}>
+      <div className={home.aboutUs}>
+          <div className={home.divheadertag}>
+          <div className={home.divblock23}></div>
+          <h3 className={home.chains}>About SmartDisperse</h3>
+          <div className={home.divblock23}></div>
+        </div>
+        <p>Connext is a fast and secure modular interoperability protocol, powered by intents.</p>
+      </div>
+      <div className={home.gridContentMain}>
+      <div className={home.gridContent}>
+      <div className={home.gridBox1}>
+      <div className={home.gridImg}>
+      <Image src={fast} alt='none' />
+      </div>
+      <h6>Fast</h6>
+      <div className={home.box1Pera}>Connext’s intent layer enables lightning fast crosschain txs and aim to provide.</div>
+      </div>
+      <div className={home.gridBox1}>
+      <div className={home.gridImg}>
+      <Image src={fast} alt='none' />
+      </div>
+      <h6>Secure</h6>
+      <div className={home.box1Pera}>Connext inherits its security from the canonical bridges themselves to secure data and transactions across chains.</div>
+      </div>
+      <div className={home.gridBox1}>
+      <div className={home.gridImg}>
+      <Image src={fast} alt='none' />
+      </div>
+      <h6>Developer Friendly</h6>
+      <div className={home.box1Pera}>Developers consistently choose Connext for its simplicity, ease of integration, and strong developer support.</div>
+      </div>
+      </div>
+      </div>
+    </div>
+    <Usecases/>
+ 
     <div className={home.sec21}>
      <div className={home.chainCircle}> 
       <div className={home.outerWrapper}>
@@ -118,15 +156,9 @@ function homepage() {
     </div> 
      
     </div>
-    <div className={home.sec22}>
-    <div className={home.divheadertag}>
-          <div className={home.divblock23}></div>
-          <h3 className={home.chains}>About SmartDisperse</h3>
-          <div className={home.divblock23}>
-          </div>
-        </div>
-            <Usecases/>
-    </div>
+    
+  
+   
   </section>
   </div>
   )
