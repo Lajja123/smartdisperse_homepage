@@ -15,7 +15,11 @@ import optimism from "../assests/optimism.png"
 import tron from "../assests/tron.webp"
 import fast from "../assests/fast.svg"
 import Usecases from './Usecases';
-
+import Snakesection from './Snakesection';
+import Getsatrtednow from './Getstartednow';
+import a from "../assests/1.png";
+import b from "../assests/2.png";
+import c from "../assests/3.png";
 
 
 
@@ -96,26 +100,27 @@ function homepage() {
       <div className={home.gridContent}>
       <div className={home.gridBox1}>
       <div className={home.gridImg}>
-      <Image src={fast} alt='none' />
+      <Image src={b} alt='none' width={100} height={100}/>
       </div>
       <h6>Fast</h6>
       <div className={home.box1Pera}>Connext’s intent layer enables lightning fast crosschain txs and aim to provide.</div>
       </div>
       <div className={home.gridBox1}>
       <div className={home.gridImg}>
-      <Image src={fast} alt='none' />
+      <Image src={c} alt='none' width={100} height={100}/>
+
       </div>
       <h6>Secure</h6>
       <div className={home.box1Pera}>Connext inherits its security from the canonical bridges themselves to secure data and transactions across chains.</div>
       </div>
       <div className={home.gridBox1}>
       <div className={home.gridImg}>
-      <Image src={fast} alt='none' />
+      <Image src={a} alt='none' width={100} height={100}/>
       </div>
       <h6>Developer Friendly</h6>
       <div className={home.box1Pera}>Developers consistently choose Connext for its simplicity, ease of integration, and strong developer support.</div>
       </div>
-      </div>
+      </div>22
       </div>
     </div>
     <div className={home.sec21}>
@@ -158,6 +163,9 @@ function homepage() {
     </div>
     </section>
     <Usecases/>
+    <Snakesection/>
+    <Getsatrtednow/>
+
   </div>
   )
 }

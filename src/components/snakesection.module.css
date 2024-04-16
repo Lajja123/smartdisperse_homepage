@@ -1,0 +1,102 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .stepWrapper {
+    margin: 30px;
+    margin-bottom: 200px;
+    position: relative;
+  }
+  
+  .lineStep {
+    text-align: center;
+    max-width: 250px;
+    position: absolute;
+  }
+  
+  .num {
+    padding: 7px;
+    color: #fff;
+    border-radius: 100px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    background: #ab00ff;
+  }
+  
+  /* Adjusted CSS for 'p' selector */
+  p.snakeText {
+    width: 250px;
+    position: absolute;
+    margin-top: 7px;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 18px;
+  }
+
+  .path {
+    visibility: hidden;
+    stroke: white;
+  }
+  
+  p.top {
+    bottom: 50px;
+    left: -110px;
+  }
+  
+  p.bottom {
+    left: -110px;
+  }
+  
+  p.left {
+    width: 200px;
+    right: 34px;
+    top: -17px;
+  }
+  
+  p.right {
+    width: 200px;
+    left: 34px;
+    top: -17px;
+  }
+  
+  .lineStep, .path {
+    visibility: hidden;
+  }
+  
+  .moveLine .path {
+    visibility: visible;
+    stroke-dasharray: 3700;
+    stroke-dashoffset: 3700;
+    animation: moveline 4s linear forwards;
+  }
+  
+  .moveLine .lineStep {
+    animation-name: show-step-item;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+  }
+  
+  .moveLine .lineStep1 { animation-delay: .4s; }
+  .moveLine .lineStep2 { animation-delay: .8s; }
+  .moveLine .lineStep3 { animation-delay: 1.2s; }
+  .moveLine .lineStep4 { animation-delay: 1.6s; }
+  .moveLine .lineStep5 { animation-delay: 2s; }
+  .moveLine .lineStep6 { animation-delay: 2.4s; }
+  .moveLine .lineStep7 { animation-delay: 2.8s; }
+  .moveLine .lineStep8 { animation-delay: 3.2s; }
+  
+  @keyframes show-step-item {
+    from { transform: scale(.2); opacity: 0 }
+    to { visibility: visible; transform: scale(1); opacity: 1 }
+  }
+  
+  @keyframes moveline {
+    to { stroke-dashoffset: 0; }
+  }
+  
