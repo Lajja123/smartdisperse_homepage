@@ -36,7 +36,7 @@ function homepage() {
       <button className={home.hLaunch}>Bridge ➔</button>
       </div>
       </div>
-      <div className={home.sec12}>
+      {/* <div className={home.sec12}>
         <div className={home.divheadertag}>
           <div className={home.divblock23}></div>
           <h3 className={home.chains}>Supported Chains</h3>
@@ -82,10 +82,10 @@ function homepage() {
           </div>
         </div>
       </article>
-      </div>
+      </div> */}
     </section>
 
-    <section className={home.homeMain2}>
+    {/* <section className={home.homeMain2}>
   <div className={home.sec22}>
       <div className={home.aboutUs}>
           <div className={home.divheadertag}>
@@ -126,7 +126,7 @@ function homepage() {
      <div className={home.chainCircle}> 
       <div className={home.outerWrapper}>
         <Image src={outer} style={{width:"100%", height:"100%"}}alt='none'className={home.outercircle}/>
-        {/* <Image src="https://assets-global.website-files.com/63996d8b3c061af402fa0609/6463a56fc2f1ffc2e8f32e14_gelato-icon-round.png "width={100} height={100} alt='none'/> */}
+     
       </div>
       <div className={home.logoWrapper}>
       <div className={home.mainlogo}>
@@ -160,10 +160,10 @@ function homepage() {
     </div> 
      
     </div>
-    </section>
-    <Usecases/>
+    </section> */}
+    {/* <Usecases/>
     <Snakesection/>
-    <Getsatrtednow/>
+    <Getsatrtednow/> */}
 
   </div>
   )
