@@ -27,6 +27,7 @@
     line-height: 40px;
     font-weight: bold;
     background: #ab00ff;
+    transition: scale 0.5s;
   }
   
   /* Adjusted CSS for 'p' selector */
@@ -100,3 +101,6 @@
     to { stroke-dashoffset: 0; }
   }
   
+  .num:hover{
+    scale: 1.3;
+  }

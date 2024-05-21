@@ -28,8 +28,8 @@ function homepage() {
   <div>
     <section className={home.homeMain1}>
       <div className={home.sec1}>
-      <div className={home.titleSame}>All Chains, One Solution</div>
-      <div className={home.titleSame}>Smart-Disperse Your Crypto Transactions!</div>
+      <div className={home.titleSame1}>All Chains, One Solution</div>
+      <div className={home.titleSame2}>Smart-Disperse Your Crypto Transactions!</div>
       <p className={home.peraSame}>Smart-Disperse is the most widely used, extensible, secure cross- chain communications network. Build truly cross-chain applications using the Smart-Disperse Protocol.</p>
       <div className={home.hLaunchMain}>
       <button className={home.hLaunch}>Build ➔</button>
@@ -79,7 +79,6 @@ function homepage() {
             <div style={{display:"flex",alignItems:"center",flexDirection:"column"}}>
               <Image src="https://assets-global.website-files.com/63996d8b3c061af402fa0609/64606d95c004d57477b749e5_Ethereum.svg" width={80} height={100}></Image>Ethereum
             </div>
-         
           </div>
         </div>
       </article>
@@ -120,7 +119,7 @@ function homepage() {
       <h6>Developer Friendly</h6>
       <div className={home.box1Pera}>Developers consistently choose Connext for its simplicity, ease of integration, and strong developer support.</div>
       </div>
-      </div>22
+      </div>
       </div>
     </div>
     <div className={home.sec21}>
