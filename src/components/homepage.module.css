@@ -78,10 +78,9 @@
     background-clip: text;
     margin: 0px;
     /* text-align: center; */
-    letter-spacing: 1px;
-    padding: 10px;
+    letter-spacing: 2px;
     font-weight: 200;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .titleSame2{
@@ -95,10 +94,9 @@
     background-clip: text;
     margin: 0px;
     /* text-align: center; */
-    letter-spacing: 1px;
-    padding:10px;
+    letter-spacing: 2px;
     font-weight: 200;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .perabtndiv{
@@ -145,11 +143,11 @@
   }
   .chains{
   padding: 0px 10px;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   text-align: center;
-  color: #c54eff;
-  font-size: 18px;
-  font-weight: 600;
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 400;
     
   }
   .sec12{
@@ -157,12 +155,15 @@
   }
 
   .divheadertag {
-    flex-flow: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 1em;
-    display: flex
+    padding: 0px 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    position: relative;
+    /* left: 90%; */
+    color: #FFFFFF;
+    bottom: 155px;
+    font-size: 3rem;
+    font-weight: 400;
 }
 
 .divblock23 {
@@ -191,12 +192,10 @@ justify-content: space-evenly;
 margin: 0px auto;
 }
 .sec1{
-  padding: 0px 6px 0px 300px;
+  padding: 0px 6px 0px 230px;
   margin-top: -50px;
 }
-.sec21{
-margin-top: 20px;
-}
+
 .outerWrapper{
   border-radius: 50%;
   width: 100%;

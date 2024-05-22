@@ -45,11 +45,15 @@ function homepage() {
           </div>
           </div>
         </div>
-        {/* <div className={home.sec12}>
-        <div className={home.divheadertag}>
-          <div className={home.divblock23}></div>
+
+     
+       
+      </section>
+      <div className={home.sec12}>
+      <div className={home.divheadertag}>
+          
           <h3 className={home.chains}>Supported Chains</h3>
-          <div className={home.divblock23}></div>
+       
         </div>
      
         <article className="wrapper">
@@ -91,19 +95,18 @@ function homepage() {
           </div>
         </div>
       </article>
-      </div> */}
-      </section>
+      </div>
 
-      {/* <section className={home.homeMain2}>
+      <section className={home.homeMain2}>
   <div className={home.sec22}>
-      <div className={home.aboutUs}>
+      {/* <div className={home.aboutUs}>
           <div className={home.divheadertag}>
           <div className={home.divblock23}></div>
           <h3 className={home.chains}>About SmartDisperse</h3>
           <div className={home.divblock23}></div>
         </div>
         <p>Connext is a fast and secure modular interoperability protocol, powered by intents.</p>
-      </div>
+      </div> */}
       <div className={home.gridContentMain}>
       <div className={home.gridContent}>
       <div className={home.gridBox1}>
@@ -169,10 +172,10 @@ function homepage() {
     </div> 
      
     </div>
-    </section> */}
-      {/* <Usecases/>
-    <Snakesection/>
-    <Getsatrtednow/> */}
+    </section>
+      <Usecases/>
+    {/* <Snakesection/> */}
+    {/* <Getsatrtednow/> */}
     </div>
   );
 }

@@ -1,6 +1,8 @@
 
 .main{
   min-height: 100vh;
+  background: linear-gradient(180deg, rgba(23, 23, 72, 0.67) 0%, rgba(56, 13, 105, 0.4891) 100%);
+
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {

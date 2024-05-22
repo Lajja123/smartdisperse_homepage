@@ -100,8 +100,10 @@ Image {
   .wrapper {
     display: flex;
     flex-direction: column;
+    padding: 20px 0px;
     gap: var(--gap);
     margin: auto;
+    background: linear-gradient(90deg, rgba(135, 52, 240, 0.71) 9.97%, #141240 100%);
     max-width: 100vw;
   }
   
