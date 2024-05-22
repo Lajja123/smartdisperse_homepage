@@ -55,6 +55,7 @@ body {
 }
 
 body {
+  font-family: "Poppins" !important;
   color: rgb(var(--foreground-rgb));
   background:#111112;
 }

@@ -60,46 +60,55 @@
   .homeMain1{
     display: flex;
     flex-direction: column;
-    min-height: 90vh;
+    min-height: 100vh;
     justify-content: space-evenly;
+    background-color: rgba(39, 46, 53, 0);
+    background-image: url('../assests//Group.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .titleSame1{
     z-index: 1;
-    text-align: center;
+    /* text-align: center; */
     white-space: normal;
     -webkit-text-fill-color: transparent;
     background-color: #fafafa;
     background-image: linear-gradient(135deg, #fff 38%, #828282);
     -webkit-background-clip: text;
     background-clip: text;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0px;
+    /* text-align: center; */
     letter-spacing: 1px;
-    padding:5px 0px;
-    font-weight: 700;
-    font-size: 3rem;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 4rem;
   }
 
   .titleSame2{
     z-index: 1;
-    text-align: center;
+    /* text-align: center; */
     white-space: normal;
     -webkit-text-fill-color: transparent;
     background-color: #fafafa;
     background-image: linear-gradient(135deg, #fff 38%, #828282);
     -webkit-background-clip: text;
     background-clip: text;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0px;
+    /* text-align: center; */
     letter-spacing: 1px;
-    padding:5px 0px;
-    font-weight: 700;
-    font-size: 25px;
+    padding:10px;
+    font-weight: 200;
+    font-size: 4rem;
+  }
+
+  .perabtndiv{
+    display: flex;
+    align-items: center;
+    width: 100%;
   }
 
   .peraSame{
-    margin: 10px auto;
-    text-align: center;
+    margin-top: 20px;
     letter-spacing: 1px;
     color: #d8d8d8;
     padding:5px 0px;
@@ -111,15 +120,16 @@
 }
   
   .hLaunchMain{
-  width: 50%;
-  margin: 20px auto;
+  /* width: 50%; */
+  margin: 10px ;
   cursor: pointer;
    text-align: center;
   }
+
   .hLaunch{
     padding: 13px 50px;
-    background:#171719;
-    border: 1px solid #7904b3;
+    background: #1615237A;
+    border: 1px solid #ffffff9a;
     letter-spacing: 1.2px;
     font-size: 1rem;
     border-radius: 63px;
@@ -129,7 +139,9 @@
    
   }
   .hLaunch:hover{
-    background-color: #ab00ff;
+   border: none;
+  border: 1px solid  #9272F7;
+  box-shadow: 0px 4px 17.8px 0px  #9272F7;
   }
   .chains{
   padding: 0px 10px;
@@ -177,6 +189,10 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 margin: 0px auto;
+}
+.sec1{
+  padding: 0px 6px 0px 300px;
+  margin-top: -50px;
 }
 .sec21{
 margin-top: 20px;
@@ -386,8 +402,8 @@ margin-top: 20px;
   text-align: center;
 }
 .hLaunchMain{
-  width: 50%;
-  margin: 20px auto;
+  /* width: 50%; */
+  margin: 10px;
   cursor: pointer;
    text-align: center;
   }

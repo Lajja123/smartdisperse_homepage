@@ -1,42 +1,51 @@
-import React from 'react'
-import home from "../components/homepage.module.css"
-import Navbar from './navbar'
+import React from "react";
+import home from "../components/homepage.module.css";
+import Navbar from "./navbar";
 import Image from "next/image";
-import "../components/chain.css"
-import outer from "../assests/outer.png"
-import middle from "../assests/middle.png"
-import inner from "../assests/inner.png"
-import iconLogo from "../assests/disperse.png"
-import base from "../assests/base.png"
-import scrolll from "../assests/scroll.png"
-import eth from "../assests/ethereum.png"
-import mode from "../assests/mode.png"
-import optimism from "../assests/optimism.png"
-import tron from "../assests/tron.webp"
-import fast from "../assests/fast.svg"
-import Usecases from './Usecases';
-import Snakesection from './Snakesection';
-import Getsatrtednow from './Getstartednow';
+import "../components/chain.css";
+import outer from "../assests/outer.png";
+import middle from "../assests/middle.png";
+import inner from "../assests/inner.png";
+import iconLogo from "../assests/disperse.png";
+import base from "../assests/base.png";
+import scrolll from "../assests/scroll.png";
+import eth from "../assests/ethereum.png";
+import mode from "../assests/mode.png";
+import optimism from "../assests/optimism.png";
+import tron from "../assests/tron.webp";
+import fast from "../assests/fast.svg";
+import Usecases from "./Usecases";
+import Snakesection from "./Snakesection";
+import Getsatrtednow from "./Getstartednow";
 import a from "../assests/1.png";
 import b from "../assests/2.png";
 import c from "../assests/3.png";
 
-
-
 function homepage() {
   return (
-  <div>
-    <section className={home.homeMain1}>
-      <div className={home.sec1}>
-      <div className={home.titleSame1}>All Chains, One Solution</div>
-      <div className={home.titleSame2}>Smart-Disperse Your Crypto Transactions!</div>
-      <p className={home.peraSame}>Smart-Disperse is the most widely used, extensible, secure cross- chain communications network. Build truly cross-chain applications using the Smart-Disperse Protocol.</p>
-      <div className={home.hLaunchMain}>
-      <button className={home.hLaunch}>Build ➔</button>
-      <button className={home.hLaunch}>Bridge ➔</button>
-      </div>
-      </div>
-      <div className={home.sec12}>
+    <div>
+      <section className={home.homeMain1}>
+        <div className={home.sec1}>
+          <div className={home.titleSame1}>All Chains, One Solution</div>
+          <div className={home.titleSame2}>
+            Smart-Disperse Your Crypto
+          </div>
+          <div className={home.titleSame2}>
+           Transactions!
+          </div>
+          <div className={home.perabtndiv}>
+          <p className={home.peraSame}>
+            Smart-Disperse is the most widely used, extensible, secure cross-
+            chain communications network. Build truly cross-chain applications
+            using the Smart-Disperse Protocol.
+          </p>
+          <div className={home.hLaunchMain}>
+            <button className={home.hLaunch}>Build ➔</button>
+            <button className={home.hLaunch}>Bridge ➔</button>
+          </div>
+          </div>
+        </div>
+        {/* <div className={home.sec12}>
         <div className={home.divheadertag}>
           <div className={home.divblock23}></div>
           <h3 className={home.chains}>Supported Chains</h3>
@@ -82,10 +91,10 @@ function homepage() {
           </div>
         </div>
       </article>
-      </div>
-    </section>
+      </div> */}
+      </section>
 
-    <section className={home.homeMain2}>
+      {/* <section className={home.homeMain2}>
   <div className={home.sec22}>
       <div className={home.aboutUs}>
           <div className={home.divheadertag}>
@@ -126,7 +135,7 @@ function homepage() {
      <div className={home.chainCircle}> 
       <div className={home.outerWrapper}>
         <Image src={outer} style={{width:"100%", height:"100%"}}alt='none'className={home.outercircle}/>
-        {/* <Image src="https://assets-global.website-files.com/63996d8b3c061af402fa0609/6463a56fc2f1ffc2e8f32e14_gelato-icon-round.png "width={100} height={100} alt='none'/> */}
+     
       </div>
       <div className={home.logoWrapper}>
       <div className={home.mainlogo}>
@@ -160,13 +169,12 @@ function homepage() {
     </div> 
      
     </div>
-    </section>
-    <Usecases/>
+    </section> */}
+      {/* <Usecases/>
     <Snakesection/>
-    <Getsatrtednow/>
-
-  </div>
-  )
+    <Getsatrtednow/> */}
+    </div>
+  );
 }
 
-export default homepage
+export default homepage;
