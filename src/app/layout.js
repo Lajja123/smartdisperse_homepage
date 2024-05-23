@@ -3,7 +3,12 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
-const Poppin = Poppins({ subsets: ["latin"],weight: ["100"] });
+export const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "400"],
+  display: "swap",
+  variable: "--font-poppins",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -13,17 +18,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={Poppin.className}>
-      <ThemeProvider
+      <body className={poppins.className}>
+        <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
-         
-        {children}
+          {children}
         </ThemeProvider>
-        </body>
+      </body>
     </html>
   );
 }

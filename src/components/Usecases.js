@@ -9,11 +9,9 @@ import c from "../assests/c.png";
 function Usecases() {
   return (
     <div className={usecaseStyle.usecaseMain}>
-         {/* <div className={home.divheadertag}>
-          <div className={home.divblock23}></div>
+         <div className={home.divheadertag}>
           <h3 className={home.chains}>Usecase</h3>
-          <div className={home.divblock23}></div>
-        </div> */}
+        </div>
       <div className={usecaseStyle.outerdivofusecases}>
        <div className={usecaseStyle.cardcontainer}>
         <div className={usecaseStyle.cards}>
